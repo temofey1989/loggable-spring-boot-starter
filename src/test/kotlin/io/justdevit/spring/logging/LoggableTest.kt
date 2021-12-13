@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component
     classes = [LoggableTest.TestService::class, LoggableAutoConfiguration::class],
     properties = [
         "spring.application.name = application",
-        "logging.action-log-format = logstash-json",
+        "logging.actions.log-format = logstash-json",
         "logging.level.root = INFO",
     ]
 )

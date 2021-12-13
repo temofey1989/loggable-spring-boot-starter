@@ -37,7 +37,7 @@ implementation("io.justdevit.spring:logging-spring-boot-starter:$loggingSpringBo
 
 ### Spring Configuration
 
-To set action log format define `logging.action-log-format` parameter in the `application.properties` or `application.yml` file.
+To set action log format define `logging.actions.log-format` parameter in the `application.properties` or `application.yml` file.
 
 **Supported formats:**
 
@@ -111,4 +111,4 @@ You can have as many custom method as you need. For example for `@RestController
 
 ### Custom Action Log Format
 
-In case you need specific format for logging messages, just implement `ActionLogResolver` and set `logging.action-log-format = custom`.
+In case you need specific format for logging messages, just implement `ActionLogResolver` and set `logging.actions.log-format = custom`.
